@@ -1,13 +1,12 @@
 {
   "name": "smile21.github.io",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.5"
-  },
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "NODE_ENV=production vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
   }
 }
