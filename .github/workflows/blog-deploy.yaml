@@ -15,4 +15,4 @@ jobs:
           TARGET_BRANCH: master
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: .vuepress/dist
-          # CNAME: https://www.xxx.com
+          CNAME: https://sml21.dev
